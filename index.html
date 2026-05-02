@@ -443,7 +443,7 @@
                     </table>
                 </div>
             </div>
-            <div class="footer-note">✅ Dữ liệu được lưu riêng theo tài khoản đăng nhập • Ghi nhớ nền • Ghi nhớ đăng nhập</div>
+           
         </div>
     </div>
 
@@ -562,7 +562,7 @@
                     <tr>
                         <td>${idx+1}</td>
                         <td><div style="display:flex; gap:6px; align-items:center;">${escapeHtml(acc.username)}<button class="small-copy" data-copy-user="${acc.id}">📋</button></div></td>
-                        <td><div style="display:flex; gap:6px; align-items:center;">${escapeHtml(passShow)}<button class="small-copy" data-toggle-pass="${acc.id}">${visible ? '🙈' : '👁️'}</button><button class="small-copy" data-copy-pass="${acc.id}">📋 mk</button></div></td>
+                        <td><div style="display:flex; gap:6px; align-items:center;">${escapeHtml(passShow)}<button class="small-copy" data-toggle-pass="${acc.id}">${visible ? '🙈' : '👁️'}</button><button class="small-copy" data-copy-pass="${acc.id}">📋</button></div></td>
                         <td>${acc.note ? escapeHtml(acc.note) : '—'}</td>
                         <td><div class="action-group"><button class="small-btn edit" data-edit="${acc.id}">✏️ Sửa</button><button class="small-btn delete" data-del="${acc.id}">🗑️ Xóa</button></div></td>
                     </tr>
